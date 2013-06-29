@@ -56,14 +56,6 @@
 		}
 		
 		/**
-		 * Updates the graphic.
-		 */
-		public function update():void
-		{
-			
-		}
-		
-		/**
 		 * Renders the graphic to the screen buffer.
 		 * @param	target		The buffer to draw to.
 		 * @param	point		The position to draw the graphic.

@@ -20,15 +20,6 @@
 			for each (var g:Graphic in graphic) add(g);
 		}
 		
-		/** @private Updates the graphics in the list. */
-		override public function update():void 
-		{
-			for each (var g:Graphic in _graphics)
-			{
-				if (g.active) g.update();
-			}
-		}
-		
 		/** @private Renders the Graphics in the list. */
 		override public function render(target:BitmapData, point:Point, camera:Point):void 
 		{

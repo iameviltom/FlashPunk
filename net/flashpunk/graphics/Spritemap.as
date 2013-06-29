@@ -63,7 +63,7 @@
 		}
 		
 		/** @private Updates the animation. */
-		override public function update():void 
+		public function update():void 
 		{
 			if (_anim && !complete)
 			{
