@@ -45,7 +45,6 @@
 			_frameCount = _columns * _rows;
 			this.callback = callback;
 			updateBuffer();
-			active = true;
 		}
 		
 		/**
