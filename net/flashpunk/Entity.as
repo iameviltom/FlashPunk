@@ -483,7 +483,6 @@ package net.flashpunk
 		{
 			if (_graphic == value) return;
 			_graphic = value;
-			if (value && value._assign != null) value._assign();
 		}
 		
 		/**

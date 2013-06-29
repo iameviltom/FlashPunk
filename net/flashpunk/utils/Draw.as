@@ -412,22 +412,6 @@
 				g.render(_target, FP.point, FP.point2);
 			}
 		}
-		
-		/**
-		 * Draws an Entity object.
-		 * @param	e					The Entity to draw.
-		 * @param	x					X position.
-		 * @param	y					Y position.
-		 * @param	addEntityPosition	Adds the Entity's x and y position to the target position.
-		 */
-		public static function entity(e:Entity, x:int = 0, y:int = 0, addEntityPosition:Boolean = false):void
-		{
-			if (e.visible && e.graphic)
-			{
-				if (addEntityPosition) graphic(e.graphic, x + e.x, y + e.y);
-				else graphic(e.graphic, x, y);
-			}
-		}
 
 		/**
 		 * Draws text.
